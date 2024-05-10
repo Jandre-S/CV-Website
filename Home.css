@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    height: 95%;
+    width: 95%;
+    margin: 25px;
+    background-color:cornflowerblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 6px;
+    grid-template-areas:
+        "picture Header"
+        "EDUCATION EDUCATION"
+        "ADDITIONAL_COURSES ADDITIONAL_COURSES"
+        "SKILLS ACTIVITIES"
+    ;
+}
+
+picture.Profile{
+    grid-area: picture;
+    display: grid;
+    height: 10%;
+}
+
+img{
+    padding: 5%;
+    width: 125px;
+}
+
+.Header{
+    grid-area: Header;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+h1.Title{
+    font-size: 70%;
+}
+
+
+.EDUCATION{
+    grid-area: EDUCATION;
+    display: grid;
+}
+
+.ADDITIONAL_COURSES{
+    grid-area: ADDITIONAL_COURSES;
+    display: grid;
+}
+
+.SKILLS{
+    grid-area: SKILLS;
+    display: grid;
+}
+
+.ACTIVITIES{
+    grid-area: ACTIVITIES;
+    display: grid;
+}
